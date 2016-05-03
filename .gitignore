@@ -48,4 +48,6 @@ Temporary Items
 
 # ignore file  dictionary
 dist/
-node_modules
+node_modules/
+typings/
+*.rar

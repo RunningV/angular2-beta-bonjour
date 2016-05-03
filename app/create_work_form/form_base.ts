@@ -23,7 +23,7 @@ export class WorkForm {
     ];
 
     get remain(): number {
-        return this.todos.reduce((count: number, todo: Todo) => count + !todo.done, 0);
+      return this.todos.reduce((count: number, todo: Todo) => count + Number(!todo.done), 0);
     }
 
     archive(): void {
